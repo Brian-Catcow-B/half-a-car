@@ -415,7 +415,7 @@ ifeq ($(COMPARE),1)
 endif
 
 run: all
-	mupen64plus build/us/sm64.us.z64
+	mupen64plus --resolution 1920x1080 build/us/sm64.us.z64
 
 clean:
 	$(RM) -r $(BUILD_DIR_BASE)
